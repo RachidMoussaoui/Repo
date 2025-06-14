@@ -1,9 +1,8 @@
-﻿# Object ID of the enterprise application
+# Object ID of the enterprise application
 $ObjectId = "91a627b3-9401-4dc1-bed9-6412a4aff791"
 
 # Define the Graph scopes to grant
 $graphScopes = @("ADDyourGraphScpopes")
-   )
 
 # Connect to Microsoft Graph with the required permissions
 Connect-MgGraph 
